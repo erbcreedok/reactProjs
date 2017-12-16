@@ -1,0 +1,52 @@
+.server-row {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 15px 20px;
+    margin: 0 -20px;
+    cursor: pointer;
+}
+.server-row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.server-row.table-header {
+    font-weight: bold;
+    padding: 20px;
+    width: auto;
+    margin: -5px -20px 0px -20px;
+    background: #f3f7fc;
+    border: #d4d6d8;
+}
+
+.server-row .table-column {
+    float: left;
+    display: block;
+    width: 100%;
+}
+.server-row:not(.table-header) .table-column {
+    padding-top: 10px;
+}
+.server-row:not(.table-header):nth-child(odd) {
+    background: #f8fafc;
+}
+.server-row:not(.table-header):hover {
+    background: #f5f7f9;
+}
+.server-row .server-avatar {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -10px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-color: #624770;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right bottom, #FF6B6B, #675170);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right bottom, #FF6B6B, #624770); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

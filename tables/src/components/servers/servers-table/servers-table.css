@@ -1,0 +1,20 @@
+.servers-table {
+    text-align: left;
+    position: relative;
+
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+    border-radius: 10px;
+    padding: 5px 20px 0px;
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.05);
+
+    overflow: hidden;
+
+    min-height: 150px;
+
+    color: #21252e;
+}
